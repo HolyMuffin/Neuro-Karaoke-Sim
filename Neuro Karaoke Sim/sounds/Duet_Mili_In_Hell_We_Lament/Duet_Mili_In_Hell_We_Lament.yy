@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Duet_Mili_In_Hell_We_Lament",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":228.25795,
+  "name":"Duet_Mili_In_Hell_We_Lament",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Duet_Mili_In_Hell_We_Lament.mp3",
+  "type":0,
+  "volume":1.0,
+}
