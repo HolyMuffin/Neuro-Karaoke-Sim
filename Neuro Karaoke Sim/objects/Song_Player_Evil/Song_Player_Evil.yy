@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_Evil2",
-    "path":"sprites/s_Evil2/s_Evil2.yy",
+    "name":"s_Evil",
+    "path":"sprites/s_Evil/s_Evil.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Year 1",
+    "path":"folders/Neuro Jam Pack/Year 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

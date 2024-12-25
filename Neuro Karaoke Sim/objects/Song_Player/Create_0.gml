@@ -13,11 +13,12 @@ image_xscale = base_scale;
 image_yscale = base_scale;
 image_speed = 0;
 
-offset_distance = sprite_height; //how far down they start offscreen
+offset_distance = sprite_height + 10; //how far down they start offscreen
 
 base_sprite = sprite_index;
 bow_sprite = s_Neuro_Bow;
 base_state = "Wait";
+motion_type = "Wait";
 
 function play_song(song, wait_time = 0) {
 	var song_name = audio_get_name(song);
@@ -25,6 +26,14 @@ function play_song(song, wait_time = 0) {
 	global.music = song;
 	global.wait_time = wait_time;
 	audio_play_sound(global.music, 0, false);
+	if (global.nightcore) {
+		game_set_speed(90, gamespeed_fps);
+		audio_sound_pitch(global.music, 1.18);
+	} else {
+		game_set_speed(60, gamespeed_fps);
+		audio_sound_pitch(global.music, 1);
+	}
+	
 	with(Song_Player) {
 		if (string_pos(name, song_name) != 0 || string_pos("Duet", song_name)) {
 			target_y = -offset_distance;
